@@ -1,0 +1,15 @@
+package com.android.common.storagemanager;
+
+public enum StorageManager$StorageStatusType {
+    ADD_REQUEST_SUCCESS,
+    ADD_REQUEST_FAILURE,
+    CAN_ADD_REQUEST,
+    OUT_OF_MEMORY,
+    MEMOTY_SUFFICIENT,
+    STORAGE_INSUFFICIENT,
+    STORAGE_SUFFICIENT,
+    GET_STORAGE_CAPACITY_FAIL,
+    QUEUE_FULL,
+    QUEUE_NOT_FULL,
+    THREAD_POOL_STOPED
+}
